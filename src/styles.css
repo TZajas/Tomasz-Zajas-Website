@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: #DBE2EF;
+}
+
+.card {
+    background-color: #3F72AF;
+    color: white
+}
+
+.btn-general {
+    background-color: #e1552f;
+    color: #f2ebca;
+    font-family: monospace;
+}
+
+.btn:hover {
+    color: white;
+    
+}
+
+.card-colour {
+    background: #f2ebca;
+}
+
+.font {
+    font-family: monospace;
+}

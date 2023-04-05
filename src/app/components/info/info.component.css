@@ -1,0 +1,14 @@
+i:hover {
+    transform: scale(1.5);
+}
+
+a {
+    color: inherit;
+    font-size: 30px;
+    padding: 10px;
+}
+
+li {
+    background-color: #DBE2EF;
+    color: black;
+}
