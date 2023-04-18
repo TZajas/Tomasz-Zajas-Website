@@ -3,7 +3,7 @@
         <div class="card h-100">
             <div class="card-body">
                 <h5 class="card-title">About</h5>
-                <p class="card-text font">Hey there! I am a 3rd year Computer Systems student at the University of Limerick. I love web technologies! Currently I am learning Angular.</p>
+                <p class="card-text font">{{about}}</p>
                 <div class="d-flex justify-content-center">
                     <a href="https://github.com/TZajas"><i class="fa fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/tomasz-zajas-34217b20b/?originalSubdomain=ie"><i class="fa fa-linkedin"></i></a>
@@ -17,10 +17,10 @@
                 <h5 class="card-title">Skills</h5>
                 <div class="d-flex justify-content-around text-center">
                     <ul class="list-group w-100 m-2">
-                        <li class="list-group-item" *ngFor="let skillFirst of skillsFirst">{{skillFirst}}</li>
+                        <li class="list-group-item font" *ngFor="let skillFirst of skillsFirst">{{skillFirst}}</li>
                     </ul>
                     <ul class="list-group w-100 m-2">
-                        <li class="list-group-item" *ngFor="let skillSecond of skillsSecond">{{skillSecond}}</li>
+                        <li class="list-group-item font" *ngFor="let skillSecond of skillsSecond">{{skillSecond}}</li>
                     </ul>
                 </div>
             </div>

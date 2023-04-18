@@ -3,14 +3,14 @@
         <div class="card h-100">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
-                    <h5 class="card-title">WiredIn</h5>
+                    <h5 class="card-title">{{wired_in.name}}</h5>
                     <i class="fa fa-github" (click)="wiredIn()"></i>
                 </div>
                 <p class="card-text font">
-                    LinkedIn like application specially catered for software engineers. Made as part of a group project using PHP, MySQL, and Bootstrap.
+                    {{wired_in.desc}}
                 </p>
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eFTLKWw542g" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -19,16 +19,34 @@
         <div class="card h-100">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
-                    <h5 class="card-title">Safe Campus</h5>
+                    <h5 class="card-title">{{safe_campus.name}}</h5>
                     <i class="fa fa-github" (click)="safeCampus()"></i>
                 </div>
                 <p class="card-text font">
-                    Android application that allows user to alert campus security with a message and location with the click of a button. Made using Java and Android Studio.
+                  {{safe_campus.desc}}
                 </p>
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G5pLbGvhgb0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="p-3 row d-flex justify-content-around">
+  <div class="col-6">
+      <div class="card h-100">
+          <div class="card-body">
+              <div class="d-flex justify-content-between">
+                  <h5 class="card-title">{{dogs_ceo.name}}</h5>
+                  <i class="fa fa-github" (click)="dogsCEO()"></i>
+              </div>
+              <p class="card-text font">
+                  {{dogs_ceo.desc}}
+              </p>
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mF3cXOaGKrI" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
