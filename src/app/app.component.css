@@ -5,3 +5,7 @@
 .footer {
     background-color: azure;
 }
+
+.container-fluid {
+  width: 80%;
+}

@@ -3,10 +3,10 @@
         <div class="card h-100">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
-                    <h5 class="card-title">{{wired_in.name}}</h5>
-                    <i class="fa fa-github" (click)="wiredIn()"></i>
+                    <h4 class="card-title">{{wired_in.name}}</h4>
+                    <i class="fa fa-github" (click)="wired_in_link()"></i>
                 </div>
-                <p class="card-text font">
+                <p class="card-text lead">
                     {{wired_in.desc}}
                 </p>
                 <div class="embed-responsive embed-responsive-16by9">
@@ -19,10 +19,10 @@
         <div class="card h-100">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
-                    <h5 class="card-title">{{safe_campus.name}}</h5>
-                    <i class="fa fa-github" (click)="safeCampus()"></i>
+                    <h4 class="card-title">{{safe_campus.name}}</h4>
+                    <i class="fa fa-github" (click)="safe_campus_link()"></i>
                 </div>
-                <p class="card-text font">
+                <p class="card-text lead">
                   {{safe_campus.desc}}
                 </p>
                 <div class="embed-responsive embed-responsive-16by9">
@@ -37,10 +37,10 @@
       <div class="card h-100">
           <div class="card-body">
               <div class="d-flex justify-content-between">
-                  <h5 class="card-title">{{dogs_ceo.name}}</h5>
-                  <i class="fa fa-github" (click)="dogsCEO()"></i>
+                  <h4 class="card-title">{{dogs_ceo.name}}</h4>
+                  <i class="fa fa-github" (click)="dogs_api_link()"></i>
               </div>
-              <p class="card-text font">
+              <p class="card-text lead">
                   {{dogs_ceo.desc}}
               </p>
               <div class="embed-responsive embed-responsive-16by9">
@@ -49,4 +49,19 @@
           </div>
       </div>
   </div>
+  <div class="col-6">
+    <div class="card h-100">
+        <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <a [href]="qca_calc.web_link"><h4 class="card-title">{{qca_calc.name}}</h4></a>
+                <i class="fa fa-github" (click)="qca_calc_link()"></i>
+            </div>
+            <p class="card-text lead">
+                {{qca_calc.desc}}
+            </p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FWnLsB3XRBo" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
 </div>

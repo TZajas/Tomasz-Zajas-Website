@@ -11,7 +11,7 @@ export class ProjectsComponent {
 
     safe_campus = {
       name : "Safe Campus",
-      desc : "Android application that allows user to alert previously added contacts with a pre-set message and current location with the click of a button. Made using Java and Android Studio",
+      desc : "Android application that allows user to alert previously added contacts with a pre-set message and current location with the click of a button. Made using Java and Android Studio.",
       vid : "https://www.youtube.com/embed/G5pLbGvhgb0"
     }
 
@@ -23,20 +23,31 @@ export class ProjectsComponent {
 
     dogs_ceo = {
       name : "Dogs CEO API",
-      desc : "Angular Project that demonstrates understanding APIs and the Angular Framework",
+      desc : "Angular project that demonstrates understanding of APIs, HTTPS requests and, the Angular Framework.",
       vid : "https://www.youtube.com/watch?v=LVlDSzbrH5M"
     }
 
+    qca_calc = {
+      name : "QCA Calculator",
+      desc : "Angular application which calculates grades based on the University of Limerick's (QCA) Quality Credit Average system.",
+      vid : "https://www.youtube.com/embed/FWnLsB3XRBo",
+      web_link : "https://qca-calculator.web.app/grades"
+    }
 
-    wiredIn() {
+
+    wired_in_link() {
       this.document.location.href = 'https://github.com/Dawid33/CS4116'
     }
 
-    safeCampus() {
+    safe_campus_link() {
       this.document.location.href = 'https://github.com/TZajas/CS4084-App-Dev';
     }
 
-    dogsCEO() {
+    dogs_api_link() {
       this.document.location.href = 'https://github.com/TZajas/Dogs-Ceo-API-Project';
+    }
+
+    qca_calc_link() {
+      this.document.location.href = 'https://qca-calculator.web.app/grades';
     }
 }
